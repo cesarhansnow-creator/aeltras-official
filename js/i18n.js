@@ -63,7 +63,18 @@
       "contact.label":"Kontakt","contact.title":"Pierwszy krok do wsp\u00F3\u0142pracy \u2022 Porozmawiajmy o Twoim projekcie","contact.subtitle":"Pierwsza konsultacja jest ca\u0142kowicie bezp\u0142atna. Opowiedz nam, czego szukasz \u2014 w ci\u0105gu 48 godzin przygotujemy dla Ciebie wst\u0119pn\u0105 ocen\u0119 i wycen\u0119.",
       "contact.email.label":"E-mail","contact.phone.label":"WhatsApp","contact.address.label":"Lokalizacje","contact.address.value":"Qingdao, Chiny / Chorz\u00F3w (magazyn)","contact.cta":"Wy\u015Blij zapytanie",
       "contact.map.pl":"Centrum magazynowe: Chorz\u00F3w","contact.map.cn":"Centrum operacyjne: Qingdao",
-      "footer.tagline":"Sie\u0107 operacyjna: Qingdao, Chiny \u2014 Chorz\u00F3w, Polska","footer.copyright":"\u00A9 2026 Aeltras. Wszelkie prawa zastrze\u017Cone."
+      "footer.tagline":"Sie\u0107 operacyjna: Qingdao, Chiny \u2014 Chorz\u00F3w, Polska","footer.copyright":"\u00A9 2026 Aeltras. Wszelkie prawa zastrze\u017Cone.",
+      "modal.label":"Zapytanie ofertowe",
+      "modal.title":"Porozmawiajmy o Twoim projekcie",
+      "modal.subtitle":"Wype\u0142nij kr\u00F3tki formularz \u2014 odpowiemy w ci\u0105gu 48 godzin.",
+      "modal.name":"Imi\u0119 i nazwisko",
+      "modal.company":"Firma",
+      "modal.email":"E-mail",
+      "modal.phone":"Telefon",
+      "modal.message":"Opisz swoje potrzeby",
+      "modal.submit":"Wy\u015Blij zapytanie",
+      "modal.success":"\u2713 Dzi\u0119kujemy! Odpowiemy w ci\u0105gu 48 godzin.",
+      "modal.error":"Wyst\u0105pi\u0142 b\u0142\u0105d. Spr\u00F3buj ponownie lub napisz na office@aeltras.pl"
     },
     en: {
       "page.title":"Aeltras 波欧诚顺 \u2014 Your Professional Bridge Between Europe and China",
@@ -121,7 +132,18 @@
       "contact.label":"Contact","contact.title":"Take the first step \u2022 Let\u2019s discuss your sourcing plan","contact.subtitle":"Your first consultation is entirely free. Tell us what you\u2019re looking for, and we\u2019ll prepare an initial assessment and quote within 48 hours.",
       "contact.email.label":"E-mail","contact.phone.label":"WhatsApp","contact.address.label":"Locations","contact.address.value":"Qingdao, China / Chorz\u00F3w (warehouse)","contact.cta":"Send inquiry",
       "contact.map.pl":"Warehouse hub: Chorz\u00F3w","contact.map.cn":"Operations hub: Qingdao",
-      "footer.tagline":"Operating network: Qingdao, China \u2014 Chorz\u00F3w, Poland","footer.copyright":"\u00A9 2026 Aeltras. All rights reserved."
+      "footer.tagline":"Operating network: Qingdao, China \u2014 Chorz\u00F3w, Poland","footer.copyright":"\u00A9 2026 Aeltras. All rights reserved.",
+      "modal.label":"Inquiry",
+      "modal.title":"Let\u2019s discuss your project",
+      "modal.subtitle":"Fill out the short form \u2014 we\u2019ll get back to you within 48 hours.",
+      "modal.name":"Full name",
+      "modal.company":"Company",
+      "modal.email":"E-mail",
+      "modal.phone":"Phone",
+      "modal.message":"Tell us what you\u2019re looking for",
+      "modal.submit":"Send inquiry",
+      "modal.success":"\u2713 Thank you! We\u2019ll get back to you within 48 hours.",
+      "modal.error":"Something went wrong. Please try again or email us at office@aeltras.pl"
     },
     zh: {
       "page.title":"波欧诚顺 · Aeltras — 连接中欧市场的专业桥梁",
@@ -179,7 +201,18 @@
       "contact.label":"联系我们","contact.title":"开启合作第一步 · 详谈您的采购计划","contact.subtitle":"首次需求咨询无需任何费用。请告知我们您正在寻找的产品，我们将竭力在 48 小时内为您提供一份初步的评估与报价方案。",
       "contact.email.label":"电子邮件","contact.phone.label":"WhatsApp","contact.address.label":"所在地","contact.address.value":"中国 · 青岛 / 波兰 · 霍茹夫（仓储）","contact.cta":"发送询价",
       "contact.map.pl":"波兰仓储中心：霍茹夫","contact.map.cn":"中国业务总部：青岛",
-      "footer.tagline":"运营网络：中国 · 青岛 — 波兰 · 霍茹夫","footer.copyright":"© 2026 Aeltras. 版权所有。"
+      "footer.tagline":"运营网络：中国 · 青岛 — 波兰 · 霍茹夫","footer.copyright":"© 2026 Aeltras. 版权所有。",
+      "modal.label":"询价咨询",
+      "modal.title":"聊聊您的采购项目",
+      "modal.subtitle":"填写简短的表单 —— 我们将在 48 小时内与您联系。",
+      "modal.name":"姓名",
+      "modal.company":"公司名称",
+      "modal.email":"电子邮箱",
+      "modal.phone":"联系电话",
+      "modal.message":"请描述您的需求",
+      "modal.submit":"发送询价",
+      "modal.success":"✓ 感谢您的询价！我们将在 48 小时内与您联系。",
+      "modal.error":"提交出现问题，请重试或直接发送邮件至 office@aeltras.pl"
     }
   };
 

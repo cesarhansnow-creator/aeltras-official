@@ -181,7 +181,7 @@
 
     <div class="services-catchall">
       <p data-i18n="services.catchall">Inne potrzeby w handlu Polska-Chiny? Napisz do nas — z chęcią pomożemy.</p>
-      <a href="mailto:office@aeltras.pl" data-i18n="services.catchall.cta">office@aeltras.pl</a>
+      <a href="#" data-open="inquiry" class="email-cloak" data-name="office" data-domain="aeltras.pl"></a>
     </div>
   </div>
 </section>
@@ -343,7 +343,7 @@
       <div class="contact-card">
         <div class="contact-icon">&#9993;</div>
         <h4 data-i18n="contact.email.label">E-mail</h4>
-        <p>office@aeltras.pl</p>
+        <p><a class="email-cloak" data-name="office" data-domain="aeltras.pl"></a></p>
       </div>
       <div class="contact-card">
         <div class="contact-icon">
@@ -358,10 +358,10 @@
         <p data-i18n="contact.address.value">Qingdao, Chiny / Chorzów (magazyn)</p>
       </div>
     </div>
-    <a href="mailto:office@aeltras.pl" class="contact-cta">
+    <button type="button" class="contact-cta" data-open="inquiry">
       <span data-i18n="contact.cta">Wyślij zapytanie</span>
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-    </a>
+    </button>
     <div class="contact-maps">
       <div class="contact-map">
         <div class="map-clip">
@@ -385,6 +385,53 @@
   <p data-i18n="footer.tagline">Sieć operacyjna: Qingdao, Chiny &mdash; Chorzów, Polska</p>
   <p class="footer-line" data-i18n="footer.copyright">&copy; 2026 Aeltras. Wszelkie prawa zastrzeżone.</p>
 </footer>
+
+<!-- INQUIRY MODAL (Netlify Forms) -->
+<div id="inquiry-modal" class="modal" aria-hidden="true" role="dialog" aria-labelledby="modal-title">
+  <div class="modal-backdrop" data-close="true"></div>
+  <div class="modal-dialog">
+    <button type="button" class="modal-close" data-close="true" aria-label="Close">&times;</button>
+    <div class="modal-body">
+      <div class="section-label" data-i18n="modal.label">Zapytanie</div>
+      <h3 class="modal-title" id="modal-title" data-i18n="modal.title">Porozmawiajmy o Twoim projekcie</h3>
+      <p class="modal-subtitle" data-i18n="modal.subtitle">Wypełnij formularz &mdash; odpowiemy w ciągu 48 godzin.</p>
+      <form name="inquiry" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="inquiry-form" id="inquiry-form">
+        <input type="hidden" name="form-name" value="inquiry" />
+        <p class="hp-field" aria-hidden="true"><label>Don&rsquo;t fill this out: <input name="bot-field" tabindex="-1" autocomplete="off" /></label></p>
+        <div class="form-row">
+          <div class="form-field">
+            <label for="if-name" data-i18n="modal.name">Imię i nazwisko</label>
+            <input type="text" id="if-name" name="name" required autocomplete="name" />
+          </div>
+          <div class="form-field">
+            <label for="if-company" data-i18n="modal.company">Firma</label>
+            <input type="text" id="if-company" name="company" autocomplete="organization" />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-field">
+            <label for="if-email" data-i18n="modal.email">E-mail</label>
+            <input type="email" id="if-email" name="email" required autocomplete="email" />
+          </div>
+          <div class="form-field">
+            <label for="if-phone" data-i18n="modal.phone">Telefon</label>
+            <input type="tel" id="if-phone" name="phone" autocomplete="tel" />
+          </div>
+        </div>
+        <div class="form-field">
+          <label for="if-message" data-i18n="modal.message">Opisz swoje potrzeby</label>
+          <textarea id="if-message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="modal-submit">
+          <span class="modal-submit-label" data-i18n="modal.submit">Wyślij zapytanie</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </button>
+        <p class="modal-success" hidden data-i18n="modal.success">&#10003; Dziękujemy! Wkrótce się odezwiemy.</p>
+        <p class="modal-error" hidden data-i18n="modal.error">Wystąpił błąd. Spróbuj ponownie lub napisz na office@aeltras.pl</p>
+      </form>
+    </div>
+  </div>
+</div>
 
 <!-- Scripts -->
 <script src="js/i18n.js"></script>
