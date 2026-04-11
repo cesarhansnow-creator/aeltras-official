@@ -36,12 +36,12 @@
   function initMaps() {
     if (typeof L === 'undefined') { setTimeout(initMaps, 200); return; }
 
-    // Amap (Gaode) tiles — fastest from China, also works globally. No API key.
-    var tileUrl = 'https://webrd0{s}.is.autonavi.com/appmaptile?lang=en&size=1&scale=1&style=8&x={x}&y={y}&z={z}';
+    // CartoDB Positron tiles via CloudFront CDN — global coverage including China edge nodes
+    var tileUrl = 'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png';
     var tileOpts = {
-      attribution: '&copy; <a href="https://amap.com">AutoNavi</a>',
-      subdomains: ['1', '2', '3', '4'],
-      maxZoom: 18
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
+      subdomains: 'abcd',
+      maxZoom: 19
     };
 
     var goldIcon = L.divIcon({
