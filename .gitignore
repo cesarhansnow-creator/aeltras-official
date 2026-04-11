@@ -4,3 +4,6 @@ Thumbs.db
 
 # Local Netlify folder
 .netlify
+
+# Photo sourcing candidates (local pool for image iteration)
+assets/images/candidates/
