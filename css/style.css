@@ -56,6 +56,7 @@ nav {
   color: var(--white); text-decoration: none; letter-spacing: 3px; text-transform: uppercase;
 }
 .nav-logo span { color: var(--amber); font-family: var(--font-cn); font-weight: 600; letter-spacing: 2px; font-size: 0.85em; }
+.tm-mark { font-size: 0.45em; vertical-align: super; font-weight: 400; color: var(--amber); letter-spacing: 0; margin-left: 1px; font-family: var(--font-body); }
 .nav-links { display: flex; gap: 36px; list-style: none; }
 .nav-links a {
   color: rgba(255,255,255,0.55); text-decoration: none; font-size: 0.8rem;
