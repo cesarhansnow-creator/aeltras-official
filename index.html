@@ -14,6 +14,8 @@
 <!-- <link rel="icon" href="assets/favicon/favicon.ico" type="image/x-icon"> -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,500;0,9..40,700;1,9..40,300&family=Instrument+Serif:ital@0;1&family=Noto+Serif+SC:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="" defer></script>
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -358,13 +360,13 @@
     <div class="contact-maps">
       <div class="contact-map">
         <div class="map-clip">
-          <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=18.9400%2C50.2850%2C18.9900%2C50.3100&layer=mapnik&marker=50.2945%2C18.9681" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div id="map-chorzow" class="leaflet-map"></div>
         </div>
         <p class="contact-map-label" data-i18n="contact.map.pl">Chorzów, Polska &bull; Magazyn</p>
       </div>
       <div class="contact-map">
         <div class="map-clip">
-          <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=120.1500%2C35.9500%2C120.6500%2C36.2000&layer=mapnik&marker=36.0671%2C120.3826" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div id="map-qingdao" class="leaflet-map"></div>
         </div>
         <p class="contact-map-label" data-i18n="contact.map.cn">Qingdao, Chiny &bull; Siedziba</p>
       </div>
