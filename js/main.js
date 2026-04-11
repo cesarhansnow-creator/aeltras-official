@@ -31,17 +31,19 @@
   auto();
 })();
 
-/* ── Contact Maps (Leaflet + CartoDB tiles) ── */
+/* ── Contact Maps (Leaflet + Esri ArcGIS Light Gray Canvas) ── */
 (function() {
   function initMaps() {
     if (typeof L === 'undefined') { setTimeout(initMaps, 200); return; }
 
-    // CartoDB Positron tiles via CloudFront CDN — global coverage including China edge nodes
-    var tileUrl = 'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png';
+    // Esri ArcGIS Light Gray Canvas — global unified tile source, Esri's own CDN
+    // (different infrastructure from CartoDB/CloudFront). Free, no API key.
+    // Two layers: base (roads/areas) + reference (labels) = clean minimalist look.
+    var baseUrl = 'https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}';
+    var refUrl = 'https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}';
     var tileOpts = {
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
-      subdomains: 'abcd',
-      maxZoom: 19
+      attribution: 'Tiles &copy; <a href="https://www.esri.com">Esri</a>',
+      maxZoom: 16
     };
 
     var goldIcon = L.divIcon({
@@ -57,20 +59,28 @@
       dragging: true,
       doubleClickZoom: true,
       touchZoom: true,
-      attributionControl: true
+      attributionControl: true,
+      maxZoom: 16
     };
 
+    function addEsriLayers(map) {
+      L.tileLayer(baseUrl, tileOpts).addTo(map);
+      L.tileLayer(refUrl, tileOpts).addTo(map);
+    }
+
+    // Chorzów (Poland)
     var el1 = document.getElementById('map-chorzow');
     if (el1 && !el1._leaflet_id) {
       var m1 = L.map(el1, mapOpts).setView([50.2945, 18.9681], 14);
-      L.tileLayer(tileUrl, tileOpts).addTo(m1);
+      addEsriLayers(m1);
       L.marker([50.2945, 18.9681], { icon: goldIcon }).addTo(m1);
     }
 
+    // Qingdao (China)
     var el2 = document.getElementById('map-qingdao');
     if (el2 && !el2._leaflet_id) {
       var m2 = L.map(el2, mapOpts).setView([36.0671, 120.3826], 11);
-      L.tileLayer(tileUrl, tileOpts).addTo(m2);
+      addEsriLayers(m2);
       L.marker([36.0671, 120.3826], { icon: goldIcon }).addTo(m2);
     }
   }
