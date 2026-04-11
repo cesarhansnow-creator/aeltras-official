@@ -7,7 +7,7 @@
     pl: {
       "page.title": "Aeltras 波欧诚顺 — Tw\u00F3j profesjonalny pomost mi\u0119dzy Europ\u0105 a Chinami",
       "nav.services": "Us\u0142ugi", "nav.cases": "Rezultaty", "nav.process": "Proces", "nav.team": "Zesp\u00F3\u0142", "nav.contact": "Kontakt",
-      "hero.badge": "Centra operacyjne: Zabrze, Polska \u2014 Qingdao, Chiny",
+      "hero.badge": "Siedziba: Qingdao, Chiny \u2022 Magazyn: Chorz\u00F3w, Polska",
       "hero.tagline": "Profesjonalny pomost mi\u0119dzy Europ\u0105 a Chinami.",
       "hero.desc": "Pomagamy europejskim firmom sprowadza\u0107 wysokiej jako\u015Bci produkty z Chin, a mi\u0119dzynarodowym markom skutecznie wchodzi\u0107 na rynek chi\u0144ski. Od sourcingu i kontroli jako\u015Bci, przez transport mi\u0119dzynarodowy i zgodno\u015B\u0107 z przepisami UE, po doradztwo handlowe i marketing \u2014 ca\u0142y proces obs\u0142ugujemy w jednym miejscu, w trzech j\u0119zykach: polskim, angielskim i chi\u0144skim.",
       "hero.cta": "Uzyskaj wycen\u0119",
@@ -60,14 +60,14 @@
       "team.cesar.role":"Marketing i strategia mi\u0119dzynarodowa","team.cesar.desc":"Chi\u0144czyk, z wymian\u0105 w KEDGE Business School (Francja) i magistrem Technopreneurship & Innovation (NTU Singapur). Do\u015Bwiadczony specjalista od marketingu mi\u0119dzynarodowego, skupiony na ekspansji chi\u0144skich marek na rynki europejskie.",
       "team.paulina.role":"Operacje handlowe i compliance","team.paulina.desc":"Polka z dyplomem sinologii (UJ) i magistrem stosunk\u00F3w mi\u0119dzynarodowych (UIBE Pekin). Tr\u00F3jj\u0119zyczna: polski, angielski, chi\u0144ski. Praktyczne do\u015Bwiadczenie w handlu mi\u0119dzynarodowym i zakupach z Chin.",
       "contact.label":"Kontakt","contact.title":"Pierwszy krok do wsp\u00F3\u0142pracy \u2022 Porozmawiajmy o Twoim projekcie","contact.subtitle":"Pierwsza konsultacja jest ca\u0142kowicie bezp\u0142atna. Opowiedz nam, czego szukasz \u2014 w ci\u0105gu 48 godzin przygotujemy dla Ciebie wst\u0119pn\u0105 ocen\u0119 i wycen\u0119.",
-      "contact.email.label":"E-mail","contact.phone.label":"WhatsApp","contact.address.label":"Biura","contact.address.value":"Zabrze, Polska / Qingdao, Chiny","contact.cta":"Wy\u015Blij zapytanie",
+      "contact.email.label":"E-mail","contact.phone.label":"WhatsApp","contact.address.label":"Lokalizacje","contact.address.value":"Qingdao, Chiny / Chorz\u00F3w (magazyn)","contact.cta":"Wy\u015Blij zapytanie",
       "contact.map.pl":"Centrum magazynowe: Chorz\u00F3w","contact.map.cn":"Centrum operacyjne: Qingdao",
-      "footer.tagline":"Sie\u0107 operacyjna: Zabrze, Polska \u2014 Qingdao, Chiny","footer.copyright":"\u00A9 2026 Aeltras. Wszelkie prawa zastrze\u017Cone."
+      "footer.tagline":"Sie\u0107 operacyjna: Qingdao, Chiny \u2014 Chorz\u00F3w, Polska","footer.copyright":"\u00A9 2026 Aeltras. Wszelkie prawa zastrze\u017Cone."
     },
     en: {
       "page.title":"Aeltras 波欧诚顺 \u2014 Your Professional Bridge Between Europe and China",
       "nav.services":"Services","nav.cases":"Results","nav.process":"Process","nav.team":"Team","nav.contact":"Contact",
-      "hero.badge":"Operating hubs: Zabrze, Poland \u2014 Qingdao, China",
+      "hero.badge":"HQ: Qingdao, China \u2022 Warehouse: Chorz\u00F3w, Poland",
       "hero.tagline":"Your professional bridge between Europe and China.",
       "hero.desc":"We help European companies source quality products from China, and guide international brands into the Chinese market. From sourcing and quality control to cross-border logistics, EU compliance, trade advisory, and marketing \u2014 every step handled by one dedicated team, in three languages: English, Polish, and Chinese.",
       "hero.cta":"Get a quote",
@@ -111,20 +111,20 @@
       "p.s4.zh":"","p.s4.t":"Professional inspection","p.s4.d":"After production, we run a rigorous pre-shipment inspection with a full photo and written report. Goods leave the factory only with your approval.",
       "p.s5.zh":"","p.s5.t":"Hassle-free delivery","p.s5.d":"We handle shipping, customs clearance, and delivery to your warehouse or directly to your door. Express from China starts at 7 days; local last-mile takes 1\u20133 working days.",
       "about.label":"About us","about.title":"Polish-Chinese collaboration \u2022 Expert team",
-      "about.p1":"Aeltras is based in Zabrze, combining deep knowledge of the Polish market with an extensive network of business contacts in China. We serve clients in three languages: English, Polish, and Chinese.",
+      "about.p1":"Aeltras is a Polish-Chinese company combining deep knowledge of the Polish market with an extensive network of business contacts in China. We serve clients in three languages: English, Polish, and Chinese.",
       "about.p2":"We operate warehouses \u2014 either our own or trusted partner facilities \u2014 in both Chorz\u00F3w (Poland) and Qingdao (China). Every order arrives at our warehouse first, so you can inspect it in person before collection or onward distribution.",
       "about.f.wh":"Warehouses in Poland & China","about.f.lang":"Trilingual team (EN/PL/ZH)","about.f.ksse":"Based in KSSE economic zone","about.f.qc":"Proven QC process","about.f.eu":"Full EU compliance",
       "team.cesar.role":"Marketing & international strategy","team.cesar.desc":"Chinese, exchanged at KEDGE Business School (France), with a Master\u2019s in Technopreneurship & Innovation (NTU Singapore). Seasoned international marketing specialist focused on Chinese brands entering European markets.",
       "team.paulina.role":"Trade operations & compliance","team.paulina.desc":"Polish with a Chinese Studies degree (Jagiellonian University) and an MA in International Relations (UIBE Beijing). Trilingual: Polish, English, Chinese. Hands-on experience in international trade and China sourcing.",
       "contact.label":"Contact","contact.title":"Take the first step \u2022 Let\u2019s discuss your sourcing plan","contact.subtitle":"Your first consultation is entirely free. Tell us what you\u2019re looking for, and we\u2019ll prepare an initial assessment and quote within 48 hours.",
-      "contact.email.label":"E-mail","contact.phone.label":"WhatsApp","contact.address.label":"Offices","contact.address.value":"Zabrze, Poland / Qingdao, China","contact.cta":"Send inquiry",
+      "contact.email.label":"E-mail","contact.phone.label":"WhatsApp","contact.address.label":"Locations","contact.address.value":"Qingdao, China / Chorz\u00F3w (warehouse)","contact.cta":"Send inquiry",
       "contact.map.pl":"Warehouse hub: Chorz\u00F3w","contact.map.cn":"Operations hub: Qingdao",
-      "footer.tagline":"Operating network: Zabrze, Poland \u2014 Qingdao, China","footer.copyright":"\u00A9 2026 Aeltras. All rights reserved."
+      "footer.tagline":"Operating network: Qingdao, China \u2014 Chorz\u00F3w, Poland","footer.copyright":"\u00A9 2026 Aeltras. All rights reserved."
     },
     zh: {
       "page.title":"波欧诚顺 · Aeltras — 连接中欧市场的专业桥梁",
       "nav.services":"服务内容","nav.cases":"成功案例","nav.process":"合作流程","nav.team":"团队介绍","nav.contact":"联系我们",
-      "hero.badge":"运营中心：波兰 · 扎布热 — 中国 · 青岛",
+      "hero.badge":"总部：中国 · 青岛 • 仓储：波兰 · 霍茹夫",
       "hero.tagline":"连接中欧市场的专业桥梁",
       "hero.desc":"我们致力于协助企业从中国采购优质产品，同时赋能国际品牌高效落地中国市场。提供覆盖寻源采购、质量控制、跨境物流、欧盟合规、商业咨询及品牌营销的全链路服务，并以中文、波兰语、英语三语为您全程护航。",
       "hero.cta":"获取报价",
@@ -168,15 +168,15 @@
       "p.s4.zh":"验 货","p.s4.t":"专业验货","p.s4.d":"货物生产完毕，我们执行严格的装运前检验，并为您提供详细的图文检验报告。货物在您确认无误后方可出运。",
       "p.s5.zh":"交 付","p.s5.t":"无忧交付","p.s5.d":"我们处理后续的运输、清关，并将货物送达指定仓库或地址。跨国急件最快 7 天可达，本地配送仅需 1-3 天。",
       "about.label":"关于我们","about.title":"中波协同 · 专业团队",
-      "about.p1":"Aeltras 总部位于波兰扎布热，是一家深度融合波兰本土市场智慧与中国商业资源的服务企业。我们以波兰语、英语和中文三种语言为客户提供无障碍服务。",
+      "about.p1":"Aeltras 是一家深度融合波兰本土市场智慧与中国商业资源的服务企业。我们以波兰语、英语和中文三种语言为客户提供无障碍服务。",
       "about.p2":"我们在波兰霍茹夫和中国青岛均设有自有或合作监管仓库。货物到港后通常先进入我方仓库，您可亲自前往查验后再安排提货或配送，确保交易安全无虞。",
       "about.f.wh":"中波双仓储布局","about.f.lang":"三语业务团队（中/波/英）","about.f.ksse":"KSSE 经济特区内运营","about.f.qc":"完善的品控体系","about.f.eu":"全面的欧盟合规能力",
       "team.cesar.role":"营销与国际战略负责人","team.cesar.desc":"中国籍，法国 KEDGE 高等商学院交换，新加坡南洋理工大学（NTU）科技创业与创新硕士。资深国际营销专家，专注于中国品牌出海欧洲市场。",
       "team.paulina.role":"贸易运营与合规事务负责人","team.paulina.desc":"波兰籍，雅盖隆大学汉学学士，对外经济贸易大学（UIBE）国际关系硕士。精通波兰语、英语及中文。在国际贸易实操及对华采购领域拥有扎实的专业经验。",
       "contact.label":"联系我们","contact.title":"开启合作第一步 · 详谈您的采购计划","contact.subtitle":"首次需求咨询无需任何费用。请告知我们您正在寻找的产品，我们将竭力在 48 小时内为您提供一份初步的评估与报价方案。",
-      "contact.email.label":"电子邮件","contact.phone.label":"WhatsApp","contact.address.label":"办公地址","contact.address.value":"波兰 · 扎布热 / 中国 · 青岛","contact.cta":"发送询价",
+      "contact.email.label":"电子邮件","contact.phone.label":"WhatsApp","contact.address.label":"所在地","contact.address.value":"中国 · 青岛 / 波兰 · 霍茹夫（仓储）","contact.cta":"发送询价",
       "contact.map.pl":"波兰仓储中心：霍茹夫","contact.map.cn":"中国业务总部：青岛",
-      "footer.tagline":"运营网络覆盖：波兰 · 扎布热 — 中国 · 青岛","footer.copyright":"© 2026 Aeltras. 版权所有。"
+      "footer.tagline":"运营网络：中国 · 青岛 — 波兰 · 霍茹夫","footer.copyright":"© 2026 Aeltras. 版权所有。"
     }
   };
 
