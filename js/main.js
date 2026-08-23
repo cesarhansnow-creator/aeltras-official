@@ -68,14 +68,6 @@
       L.tileLayer(refUrl, tileOpts).addTo(map);
     }
 
-    // Chorzów (Poland)
-    var el1 = document.getElementById('map-chorzow');
-    if (el1 && !el1._leaflet_id) {
-      var m1 = L.map(el1, mapOpts).setView([50.2945, 18.9681], 14);
-      addEsriLayers(m1);
-      L.marker([50.2945, 18.9681], { icon: goldIcon }).addTo(m1);
-    }
-
     // Qingdao (China)
     var el2 = document.getElementById('map-qingdao');
     if (el2 && !el2._leaflet_id) {

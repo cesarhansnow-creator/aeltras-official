@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "description": "Aeltras — polsko-chiński zespół do kompleksowej obsługi importu z Chin: sourcing i weryfikacja fabryk, kontrola jakości, transport do Polski oraz zgodność CE i GPSR. Zaplecze operacyjne i magazynowe w Qingdao. Bezpłatna wycena w 48 h.",
+    "og_description": "Sourcing, kontrola jakości, transport i zgodność CE/GPSR — pełna obsługa importu z Chin w trzech językach. Zaplecze operacyjne i magazynowe w Qingdao."
+  },
+  "schema": {
+    "organization_description": "Polsko-chiński zespół do kompleksowej obsługi importu z Chin: sourcing i weryfikacja fabryk, kontrola jakości, transport międzynarodowy oraz zgodność z przepisami UE (CE, GPSR). Zaplecze operacyjne i magazynowe w Qingdao."
+  },
+  "default": {
+    "hero.badge": "Siedziba i magazyn: Qingdao, Chiny",
+    "slide.4.desc": "Qingdao (Chiny)",
+    "s.logistics.d": "Transport morski, kolejowy lub lotniczy. Odprawa celna, VAT i dostawa bezpośrednio pod wskazany adres.",
+    "p.s5.d": "Transport, odprawa celna, dostawa do magazynu lub pod Twój adres. Ekspres z Chin: od 7 dni. Lokalnie: 1-3 dni.",
+    "faq.a1": "Proces ma pięć kroków: zapytanie ofertowe (produkt, ilość, budżet, termin), wycenę z cenami fabrycznymi i kalkulacją kosztów całkowitych, zamówienie i nadzór produkcji z płatnością po zatwierdzeniu próbki, inspekcję przedwysyłkową z raportem foto, a na końcu transport, odprawę celną i dostawę pod wskazany adres.",
+    "s.warehouse.d": "Elastyczne magazynowanie tymczasowe w Qingdao (Chiny). Rozliczenie dzienne, tygodniowe lub miesięczne.",
+    "about.p2": "Dysponujemy własnym lub partnerskim zapleczem magazynowym w Qingdao (Chiny). Towary od dostawców mogą zostać skonsolidowane i sprawdzone przed wysyłką międzynarodową.",
+    "about.f.wh": "Magazyn w Qingdao",
+    "about.f.hq": "Centrum operacyjne w Qingdao",
+    "contact.address.value": "Qingdao, Chiny",
+    "contact.map.cn": "Qingdao, Chiny &bull; Siedziba",
+    "footer.tagline": "Centrum operacyjne: Qingdao, Chiny",
+    "faq.a5": "Współpracujemy zarówno z małymi, jak i większymi firmami. Minimalne wielkości zamówień (MOQ) negocjujemy z fabrykami w Twoim imieniu, a magazyn w Qingdao pozwala elastycznie konsolidować mniejsze zamówienia.",
+    "faq.a6": "Jesteśmy polsko-chińskim zespołem obsługującym klientów w trzech językach (PL/EN/ZH), z własnym zapleczem operacyjnym i magazynowym w Qingdao (Chiny). Towar może zostać skonsolidowany i sprawdzony w Qingdao przed wysyłką, a my odpowiadamy za kontrolę jakości i zgodność z prawem UE."
+  },
+  "pl": {
+    "hero.badge": "Siedziba i magazyn: Qingdao, Chiny",
+    "slide.4.desc": "Qingdao (Chiny)",
+    "s.logistics.d": "Elastycznie dobieramy transport morski, kolejowy lub lotniczy według Twoich potrzeb czasowych i kosztowych. Odprawa celna, VAT i dostawa bezpośrednio pod wskazany adres — pełna obsługa pod klucz.",
+    "p.s5.d": "Przejmujemy transport, odprawę celną i dostawę do magazynu lub bezpośrednio pod wskazany adres. Ekspresowa dostawa międzynarodowa już od 7 dni, dostawa lokalna w 1–3 dni robocze.",
+    "faq.a1": "Proces ma pięć kroków: zapytanie ofertowe (produkt, ilość, budżet, termin), wycenę z cenami fabrycznymi i kalkulacją kosztów całkowitych, zamówienie i nadzór produkcji z płatnością po zatwierdzeniu próbki, inspekcję przedwysyłkową z raportem foto, a na końcu transport, odprawę celną i dostawę pod wskazany adres.",
+    "s.warehouse.d": "Tymczasowe magazynowanie w Qingdao (Chiny), z elastycznymi warunkami rozliczenia dziennymi, tygodniowymi lub miesięcznymi, dopasowanymi do Twoich potrzeb.",
+    "about.p2": "Dysponujemy własnym lub partnerskim zapleczem magazynowym w Qingdao (Chiny). Towary od dostawców mogą zostać skonsolidowane i sprawdzone przed wysyłką międzynarodową.",
+    "about.f.wh": "Magazyn w Qingdao",
+    "about.f.hq": "Centrum operacyjne w Qingdao",
+    "contact.address.value": "Qingdao, Chiny",
+    "contact.map.cn": "Centrum operacyjne: Qingdao",
+    "footer.tagline": "Centrum operacyjne: Qingdao, Chiny",
+    "faq.a5": "Współpracujemy zarówno z małymi, jak i większymi firmami. Minimalne wielkości zamówień (MOQ) negocjujemy z fabrykami w Twoim imieniu, a magazyn w Qingdao pozwala elastycznie konsolidować mniejsze zamówienia.",
+    "faq.a6": "Jesteśmy polsko-chińskim zespołem obsługującym klientów w trzech językach (PL/EN/ZH), z własnym zapleczem operacyjnym i magazynowym w Qingdao (Chiny). Towar może zostać skonsolidowany i sprawdzony w Qingdao przed wysyłką, a my odpowiadamy za kontrolę jakości i zgodność z prawem UE."
+  },
+  "en": {
+    "hero.badge": "Headquarters and warehouse: Qingdao, China",
+    "slide.4.desc": "Qingdao (China)",
+    "s.logistics.d": "Sea, rail, or air freight — flexibly matched to your timeline and budget. Customs clearance, VAT handling, and delivery straight to your chosen address. A full turnkey service.",
+    "p.s5.d": "We handle shipping, customs clearance, and delivery to your warehouse or directly to your door. Express from China starts at 7 days; local last-mile takes 1–3 working days.",
+    "faq.a1": "There are five steps: inquiry (product, quantity, budget, timeline), a quote with factory pricing and a total landed-cost breakdown, the order and production oversight with payment only after you sign off on the sample, a pre-shipment inspection with a photo report, and finally shipping, customs clearance and delivery to your chosen address.",
+    "s.warehouse.d": "Temporary storage in Qingdao (China), with flexible daily, weekly, or monthly billing to fit your inventory needs.",
+    "about.p2": "We operate our own or trusted partner warehousing facilities in Qingdao (China). Goods from multiple suppliers can be consolidated and inspected there before international shipping.",
+    "about.f.wh": "Warehouse in Qingdao",
+    "about.f.hq": "Qingdao operations hub",
+    "contact.address.value": "Qingdao, China",
+    "contact.map.cn": "Operations hub: Qingdao",
+    "footer.tagline": "Operations hub: Qingdao, China",
+    "faq.a5": "We work with both small and larger companies. We negotiate minimum order quantities (MOQ) with factories on your behalf, and our Qingdao warehouse lets us flexibly consolidate smaller orders.",
+    "faq.a6": "We are a Polish-Chinese team serving clients in three languages (PL/EN/ZH), with our own operations and warehousing base in Qingdao (China). Goods can be consolidated and inspected in Qingdao before shipping, and we take responsibility for quality control and EU compliance."
+  },
+  "zh": {
+    "hero.badge": "总部及仓储：中国 · 青岛",
+    "slide.4.desc": "中国 · 青岛",
+    "s.logistics.d": "根据您的时效与成本要求，灵活提供海运、铁路或空运服务。包含报关清关、增值税代缴，并送货至您指定仓库或地址的一站式交钥匙服务。",
+    "p.s5.d": "我们处理后续的运输、清关，并将货物送达指定仓库或地址。跨国急件最快 7 天可达，本地配送仅需 1-3 天。",
+    "faq.a1": "共五步：提交询价（产品、数量、预算、货期）；获取含工厂报价与综合到岸成本测算的方案；确认下单并监造生产，样品书面确认后再付款；装运前专业验货并提供图文报告；最后由我们处理运输、清关并送达仓库或指定地址。",
+    "s.warehouse.d": "我们在中国青岛设有仓储节点，提供按天、按周或按月计费的临时仓储解决方案，满足您的弹性备货需求。",
+    "about.p2": "我们在中国青岛设有自有或合作仓储节点。来自不同供应商的货物可在青岛完成集货与查验，再安排国际运输。",
+    "about.f.wh": "青岛仓储节点",
+    "about.f.hq": "青岛运营中心",
+    "contact.address.value": "中国 · 青岛",
+    "contact.map.cn": "中国业务总部：青岛",
+    "footer.tagline": "运营中心：中国 · 青岛",
+    "faq.a5": "大小企业我们都服务。最小起订量（MOQ）由我们代表您与工厂谈判，并依托青岛仓库灵活拼单整合较小订单。",
+    "faq.a6": "我们是以中／波／英三语服务客户的中波团队，在中国青岛设有运营及仓储据点。货物可在青岛完成集货与查验后再发运，品控与欧盟合规均由我们负责。"
+  }
+}
